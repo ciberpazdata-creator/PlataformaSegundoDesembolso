@@ -1159,7 +1159,7 @@ function initEventListeners() {
     document.getElementById("sheetSyncStatus").classList.add("hidden");
     if (window.INITIAL_FILES_DATA) {
       loadDataset(window.INITIAL_FILES_DATA, "DocsShares Unipamplona");
-      showToast("Restaurados los 632 archivos originales de URL.xlsx");
+      showToast("Restaurados los 755 archivos originales");
     }
   });
 }
